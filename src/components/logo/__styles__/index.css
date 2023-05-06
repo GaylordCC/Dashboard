@@ -1,0 +1,56 @@
+.logo {
+    display: flex;
+    flex-direction: row;
+    height: 36px;
+    width: 219.5px;
+    left: 0px;
+    top: 10px;
+    border-radius: 0px;
+    /* border: 3px solid pink; */
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35.25px;
+    width: 35.25px;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    margin-left: 13px;
+    height: 28.56px;
+    width: 170.6px;
+    /* border: 3px solid rgb(228, 159, 10); */
+}
+
+.text-logo1 {
+    font-size: 40px;
+}
+
+.logo2 {
+    display: flex;
+    flex-direction: row;
+    height: 36px;
+    width: 219.5px;
+    left: 0px;
+    top: 10px;
+    border-radius: 0px;
+    background: black;
+}
+
+.text2 {
+    display: flex;
+    align-items: center;
+    margin-left: 13px;
+    height: 28.56px;
+    width: 170.6px;
+    color: white;
+}
+
+.text-logo2 {
+    font-size: 40px;
+}
+
