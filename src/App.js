@@ -11,11 +11,11 @@ import SmallContainer from "./components/container/SmallContainer";
 function App() {
   return (
     <div className="App">
-      {/* <BodyDashboard /> */}
+      <BodyDashboard />
       {/* <Logo /> */}
       {/* <Logo2 /> */}
       {/* <Button /> */}
-      <SmallContainer />
+      {/* <SmallContainer /> */}
     </div>
   );
 }

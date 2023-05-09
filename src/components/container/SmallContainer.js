@@ -1,16 +1,12 @@
 import React from "react";
-import blackgreen from "./images/blackgreen.png";
-import tokyomagnifier from "./images/tokyomagnifier.png";
 
 
-const SmallContainer = () => {
-
-
+export default function SmallContainer (props) {
 
     return (
         <div 
         className="container-wrapped"
-        // label="HOLA MAMI RICA"
+        label={props.title2}
         style= {
             {
                 display: 'flex',
@@ -20,7 +16,7 @@ const SmallContainer = () => {
                 borderRadius: '45px',
                 border: '2px solid black',
                 borderBottom: '6px solid',
-                background: '#F3F3F3',
+                background: (props.backgroundContainer),
             }
         }
         >
@@ -31,7 +27,6 @@ const SmallContainer = () => {
                     width: '221px',
                     marginLeft: '50px',
                     marginTop: '50px',
-                    // border: '2px solid black',
                 }
             }
             >
@@ -45,16 +40,16 @@ const SmallContainer = () => {
                         width: '221px',
                         textAlign: 'left',
                         marginTop: '0px',
-                        // border: '2px solid pink',
                     }
                 }
                 >
                     <div className="div-label-1"
                     style={
                         {
-                            width: '221px',
+                            width: (props.widthLabel1),
                             height: '38px',
-                            // border: '2px solid aqua',
+                            background: (props.backgroundLabel),
+                            borderRadius: '7px',
                         }
                     }
                     >
@@ -71,21 +66,22 @@ const SmallContainer = () => {
                                 paddingLeft:'7px',
                             }
                         }
-                        >Search engine</h3>
+                        >{props.title1container}</h3>
                     </div>
                     <div className="div-label-2"
                     style={
                         {
-                            width: '221px',
+                            width: (props.widthLabel2),
                             height: '38px',
-                            // border: '2px solid aqua',
+                            background: (props.backgroundLabel),
+                            borderRadius: '7px',
                         }
                     }
                     >
                         <h3 className="label-2"
                         style={
                             {
-                                width: '207px',
+                                width: '183px',
                                 height: '38px',
                                 fontSize: '30px',
                                 margin : '0', 
@@ -94,7 +90,7 @@ const SmallContainer = () => {
                                 paddingLeft:'7px',
                             }
                         }
-                        >optimization</h3>
+                        >{props.title2container}</h3>
                     </div>
                 </div>
                 <div className="link"
@@ -105,7 +101,6 @@ const SmallContainer = () => {
                         height: '41px',
                         width: '164px',
                         marginTop: '87px',
-                        // border: '2px solid black',
                      }
                 }
                 >
@@ -117,7 +112,7 @@ const SmallContainer = () => {
                         }
                     }
                     >
-                        <img src={blackgreen}/>
+                        <img src={props.link}/>
                     </div>
                     <div className="text-link"
                     style={
@@ -139,7 +134,6 @@ const SmallContainer = () => {
             <div className="illustration"
             style={
                 {
-                    // border: '4px solid black',
                     height: '166.1px',
                     width: '210px',
                     marginLeft: '69px',
@@ -147,10 +141,8 @@ const SmallContainer = () => {
                 }
             }
             >
-                <img src={tokyomagnifier}/>
+                <img src={props.illust}/>
             </div>
         </div>
     )
 }
-
-export default SmallContainer
