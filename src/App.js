@@ -8,6 +8,7 @@ import Logo from "./components/logo/Logo";
 import Logo2 from "./components/logo/logo2";
 import SmallContainer from "./components/container/SmallContainer";
 import BigContainer from "./components/container/BigContainer";
+import ResContainer from "./components/container/ResContainer";
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
       {/* <Logo2 /> */}
       {/* <Button /> */}
       {/* <SmallContainer /> */}
-      <BigContainer />
+      {/* <BigContainer /> */}
+      <ResContainer />
     </div>
   );
 }

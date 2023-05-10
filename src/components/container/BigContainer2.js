@@ -1,7 +1,7 @@
 import React from "react";
 import Minus from "./images/Minus.png";
 
-export default function BigContainer (props) {
+export default function BigContainer2 (props) {
 
     return (
         <div className="big-container"
@@ -81,40 +81,6 @@ export default function BigContainer (props) {
                     <img src={props.imMinimus} />
                 </div>
 
-            </div>
-            <div className="line"
-            style={
-                {
-                    width: '1114px',
-                    height: (props.heightL),
-                    background: 'black',
-                    marginTop: '30px',
-                    marginLeft: '60px',
-                }
-            }
-            >
-                <h />    
-            </div>
-            <div className="text-content"
-            style={
-                {
-                    display: 'flex',
-                    alignItems: 'center',
-                    width: '1114px',
-                    height: '60px',
-                    textAlign: 'justify',
-                    marginLeft: '60px',
-                    marginTop: '30px',
-                    fontSize: '18px',
-                    lineHeight: '20px',                    
-                }
-            }
-            >
-                <p className="paragraph">
-                During the initial consultation, we will discuss your business 
-                goals and objectives, target audience, and current marketing <br/>efforts. This will allow us to understand your needs and tailor our services 
-                to best fit your requirements
-                </p>
             </div>
         </div>
     )
