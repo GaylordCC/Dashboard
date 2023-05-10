@@ -13,13 +13,13 @@ import ResContainer from "./components/container/ResContainer";
 function App() {
   return (
     <div className="App">
-      {/* <BodyDashboard /> */}
+      <BodyDashboard />
       {/* <Logo /> */}
       {/* <Logo2 /> */}
       {/* <Button /> */}
       {/* <SmallContainer /> */}
       {/* <BigContainer /> */}
-      <ResContainer />
+      {/* <ResContainer /> */}
     </div>
   );
 }

@@ -47,7 +47,7 @@ export default function ResContainer (props) {
                             }
                         }
                     >
-                        <img src={John} />
+                        <img src={props.impicture} />
                     </div>  
                     <div className="picture-name"
                     style={
@@ -70,7 +70,7 @@ export default function ResContainer (props) {
                                 marginTop : '7px',
                             }
                         }
-                        >John Smith</p>
+                        >{props.picturename}</p>
                         <p
                         style={
                             {
@@ -80,7 +80,7 @@ export default function ResContainer (props) {
                             }
                         }
                         
-                        >CEO and Founder</p>
+                        >{props.pictureafilliation}</p>
                     </div>
                     <div className="social-icon"
                     style={
@@ -117,9 +117,7 @@ export default function ResContainer (props) {
                 }
                 >
                     <p>
-                    10+ years of experience 
-                    in digital <br/> marketing. Expertise 
-                    in SEO, PPC, <br/> and content strategy
+                        {props.resume}
                     </p>
                 </div>
             </div>
