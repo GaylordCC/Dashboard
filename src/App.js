@@ -7,15 +7,17 @@ import Button from "./components/button/Button";
 import Logo from "./components/logo/Logo";
 import Logo2 from "./components/logo/logo2";
 import SmallContainer from "./components/container/SmallContainer";
+import BigContainer from "./components/container/BigContainer";
 
 function App() {
   return (
     <div className="App">
-      <BodyDashboard />
+      {/* <BodyDashboard /> */}
       {/* <Logo /> */}
       {/* <Logo2 /> */}
       {/* <Button /> */}
       {/* <SmallContainer /> */}
+      <BigContainer />
     </div>
   );
 }
