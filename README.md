@@ -68,3 +68,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+### node version
+18.12.1
+
+### figman designe
+https://www.figma.com/file/tws5m4DBiZo1fjQnvhVUGY/Positivus-Landing-Page-Design-(Community)?type=design&node-id=330-762
